@@ -1,0 +1,102 @@
+*{
+
+	margin: 0px;
+    padding: 0px;
+
+}
+ body{
+ background-image: url(image/back.jpg);
+ background-size: 100%;
+
+
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr .5fr;
+	width: 80%;
+	margin: 0 auto;
+}
+.navbar ul{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+	padding-top: 0;
+	
+}
+.navbar li{
+	padding: 40px;
+	background-color: #ba2378 ;
+	border: 2px ;
+	font-size: 18px;
+
+}
+.navbar li a{
+	text-decoration: none;
+	color: white;
+}
+button{
+	height: 200px;
+	margin: 20%;
+}
+#buttonOne{
+	background-color: #ba2378; 
+}
+#buttonTwo{
+	background-color: #e0a6c7;
+}
+.Right{
+	text-align: center;
+	font-size: 40px;
+}
+#buttonOneMessage{
+	font-size: 0;
+}
+#buttonTwoMessage{
+	font-size: 0
+}
+.dontHover{
+	height: 100px;
+	width: 40%;
+	margin: 0 auto;
+	border:2px ;
+	background-color: #e868b0;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+	padding: 10% 10% ;
+	font-size: 3em;
+	font-weight: bold;
+}
+.keyPress{
+	font-size: 40px;
+	margin:0 auto;
+	margin-top: 30%;
+	width: 50%;
+	text-align: center;
+}
+#keyPressShown{
+	margin-left: 50%;
+	font-size: 10em;
+}
+.formBodyWrapper{
+	margin-top: 5%;
+	height: 300px;
+}
+.formWrapper{
+	width:80%;
+	margin:0 auto;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 400px;
+}
+#user{
+	margin-left: 30px;
+}
+#submit{
+	width: 100px;
+	height: 50px;
+	background-color: #ba2378;
+}
