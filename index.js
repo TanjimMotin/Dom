@@ -5,13 +5,13 @@ var buttonTwoMessage = document.getElementById("buttonTwoMessage");
 //and to give personality each button text has a color.
 
 
-//Red button. 
+//Magenta button. 
 function buttonOneChanger(){
 	buttonTwoMessage.style.fontSize = 0;	
 	buttonOneMessage.style.fontSize = "3em";
 	buttonOneMessage.style.color = "pink"
 }
-//Blue button.
+//Pink button.
 function buttonTwoChanger(){
 	buttonOneMessage.style.fontSize = 0;
 	buttonTwoMessage.style.fontSize = "3em";
