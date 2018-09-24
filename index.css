@@ -76,27 +76,34 @@ button{
 	margin-top: 30%;
 	width: 50%;
 	text-align: center;
+	
 }
-#keyPressShown{
+#keyPressLetter{
 	margin-left: 50%;
 	font-size: 10em;
+	color: pink;
 }
-.formBodyWrapper{
+.formBody{
 	margin-top: 5%;
 	height: 300px;
+	color: pink;
 }
 .formWrapper{
 	width:80%;
+
 	margin:0 auto;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
-	height: 400px;
+	height: 600px;
+	text-align: center;
 }
 #user{
 	margin-left: 30px;
+	text-align: center;
 }
 #submit{
-	width: 100px;
+	width: 600px;
 	height: 50px;
 	background-color: #ba2378;
+
 }
