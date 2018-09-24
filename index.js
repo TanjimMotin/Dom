@@ -7,7 +7,7 @@ var buttonTwoMessage = document.getElementById("buttonTwoMessage");
 
 //Red button. 
 function buttonOneChanger(){
-	buttonTwoMessage.style.fontSize = 0;
+	buttonTwoMessage.style.fontSize = 0;	
 	buttonOneMessage.style.fontSize = "3em";
 	buttonOneMessage.style.color = "pink"
 }
