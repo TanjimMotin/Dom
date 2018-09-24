@@ -37,26 +37,34 @@
 	text-decoration: none;
 	color: white;
 }
-button{
-	height: 200px;
-	margin: 20%;
+.button {
+  height: 200px;
+  width: 350px;
+  background-color: pink;
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
 }
-#buttonOne{
-	background-color: #ba2378; 
+
+.buttontext {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: black;
 }
-#buttonTwo{
-	background-color: #e0a6c7;
+
+#showtext {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: black;
 }
-.Right{
-	text-align: center;
-	font-size: 40px;
+
+.textbox {
+  float: left;
+  padding: 0 25px;
 }
-#buttonOneMessage{
-	font-size: 0;
-}
-#buttonTwoMessage{
-	font-size: 0
-}
+
 .dontHover{
 	height: 100px;
 	width: 40%;

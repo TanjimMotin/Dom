@@ -1,19 +1,19 @@
-var buttonOneMessage = document.getElementById("buttonOneMessage");
-var buttonTwoMessage = document.getElementById("buttonTwoMessage");
+var button1 = document.getElementById('button1');
+var button2 = document.getElementById('button2');
 
-//both font sizes are 0. So to turn up the font size
-//and to give personality each button text has a color.
+var showtext = document.getElementById('showtext');
 
-
-//Magenta button. 
-function buttonOneChanger(){
-	buttonTwoMessage.style.fontSize = 0;	
-	buttonOneMessage.style.fontSize = "3em";
-	buttonOneMessage.style.color = "pink"
+// This function changes the text inside the initially invisible text box.
+function changeText1() {
+  showtext.innerText = "I'm right!";
 }
-//Pink button.
-function buttonTwoChanger(){
-	buttonOneMessage.style.fontSize = 0;
-	buttonTwoMessage.style.fontSize = "3em";
-	buttonTwoMessage.style.color = "pink"
+
+// Does the same as the other function except the text is different.
+function changeText2() {
+  showtext.innerText = "No, I'm right!";
 }
+
+// Button one executes one function, button two executes the other - on 'click'
+button1.addEventListener('click', changeText1)
+
+button2.addEventListener('click', changeText2)
